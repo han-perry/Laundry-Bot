@@ -1,0 +1,21 @@
+import { RoomConfig } from "./types.js";
+
+// NOTE: THESE ARE EXAMPLE VALUES AND WILL NOT WORK. FILL IN YOUR VALUES ACCORDING TO THE INSTALLATION GUIDE.
+
+// Precondition: All labels must be unique.
+const rooms: RoomConfig[] = [
+    {
+        locationId: "a7291cde-faec-553g-8e35-819e4b516f54",
+        roomId: "2531308-005",
+        label: "1F",
+    },
+    // NOTE: locationId's are often the same but may vary for multi-building setups, depending on your CSCGO configuration
+    {
+        locationId: "a7291cde-faec-553g-8e35-819e4b516f54",
+        roomId: "2531308-006",
+        label: "2F",
+    },
+    // add more rooms as desired...
+]
+
+export default rooms;
