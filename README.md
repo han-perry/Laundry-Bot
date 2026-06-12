@@ -56,7 +56,7 @@ In this URL (made-up), the `locationId` is given after the `/location/` block, a
 
 The `roomId` follows a similar pattern, after the `/room/` block, and is `2531308-005`.
 
-You should record these values somewhere (with some identifier to help you remember the room name), and add them to a `config.ts` file in `src/`, following the example in `config.ts`. Note that `label` is treated as the canonical name of the laundry room and is what will show up in the web app and Discord bot, so all labels should be unique (e.g.: 1F-West, 2C).
+You should record these values somewhere (with some identifier to help you remember the room name), and add them to a `config.ts` file in `src/`, following the example in `config.ts.example`. Note that `label` is treated as the canonical name of the laundry room and is what will show up in the web app and Discord bot, so all labels should be unique (e.g.: 1F-West, 2C).
 
 ### 4. Start the Server
 
