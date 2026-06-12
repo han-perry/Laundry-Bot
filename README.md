@@ -46,9 +46,6 @@ For each room, locate a `GET` API call to a `https://mycscgo.com/api/v3/location
 
 It should look something like this.
 
-locationId: "a7291cde-faec-553g-8e35-819e4b516f54",
-        roomId: "2531308-005",
-        label: "1F",
 ```
 https://mycscgo.com/api/v3/location/a7291cde-faec-553g-8e35-819e4b516f54/room/2531308-005/summary 
 ```
